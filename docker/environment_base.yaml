@@ -1,0 +1,31 @@
+name: python38
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cython
+  - feather-format
+  - lightgbm
+  - matplotlib
+  - numba
+  - numpy
+  - pandas
+  - pathlib2
+  - pip=20.*
+  - python=3.8.*
+  - requests
+  - scikit-learn
+  - scipy
+  - seaborn
+  - statsmodels
+  - tqdm
+  - watermark
+  - ffmpeg
+  - ffmpeg-python
+  - pyaudio
+  - torchaudio
+  - pytorch
+  - youtube-dl
+  # - spleeter
+prefix: /opt/conda/envs/python38
